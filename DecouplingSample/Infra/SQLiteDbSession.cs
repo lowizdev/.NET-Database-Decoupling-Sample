@@ -9,7 +9,7 @@ namespace DecouplingSample.Infra
 
         public SQLiteDbSession()
         {
-            DbConnection = new SqliteConnection("Data Source=C:\\Users\\santo\\source\\repos\\DecouplingSample\\DecouplingSample\\database.db");
+            DbConnection = new SqliteConnection("#TODO: PUT YOUR PATH HERE OR LOAD FROM FILE");
             DbConnection.Open();
         }
         public void Dispose()
